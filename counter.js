@@ -24,12 +24,12 @@ function radd1() {
 }
 
 function radd2() {
-    count += 1
+    count += 2
     screenTwo.textContent = count
 }
 
 function radd3() {
-    count += 1
+    count += 3
     screenTwo.textContent = count
 }
 

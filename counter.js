@@ -20,7 +20,7 @@ function ladd3() {
 }
 
 function radd1() {
-    lcount += 1
+    rcount += 1
     screenTwo.textContent = rcount
 }
 

@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background: #ffffff;
+;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#screen1, #screen2 {
+    
+    display: flex;
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 337px;
+    border-radius: 5px;
+    background-color: #080001;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #F94F6D;
+    font-size: 10vh;
+    font-family: "Press Start 2P", system-ui;
+    
+}
+
+h3 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    
+
+}
+
+.btns-left, .btns-right { 
+
+display: inline-flex;
+width: 45px;
+height: 45px;
+border-radius: 5px;
+border: 2px solid #9AABD8;
+background: transparent;
+color: #9AABD8;
+margin-top: 30px;
+justify-content: space-between;
+align-items: center;
+gap: 3px;
+font-family: "Press Start 2P", system-ui;
+cursor: pointer;
+}
+
+
+
+.reset {
+display: flex;
+width: 95px;
+height: 45px;
+border-radius: 5px;
+border: 2px solid #9AABD8;
+background: transparent;
+color: #9AABD8;
+margin-top: 30px;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 3px;
+font-family: "Press Start 2P", system-ui;
+}
+
+.guestcont, .homecont {
+   
+    align-items: center;
+}
+
+.container {
+    margin: 20px auto;
+    border: 3px solid rgb(255, 255, 255);
+    max-width: 600px;
+    padding-bottom: 40px;
+    background: rgb(17, 46, 132);
+    border-radius: 7px;
+}
+
+

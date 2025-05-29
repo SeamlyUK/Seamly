@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="counter.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="homecont">
+                <h3>HOME</h3>
+                <div id="screen1">
+                    0
+                    </div class="lft-cont">
+                    <button id="laddbtn1" class="btns-left" onclick="ladd1()">+1</button>
+                    <button id="laddbtn2" class="btns-left" onclick="ladd2()">+2</button>
+                    <button id="laddbtn3" class="btns-left" onclick="ladd3()">+3</button>
+                    </div>
+                    <div class="rcont">
+                        <button class="reset" onclick="reset()">Reset</button>
+                    </div>
+                <div class="guestcont">
+                    
+                <h3>GUEST</h3>
+                <div id="screen2">
+                    0
+                    </div class="right-cont">
+                <button id="raddbtn1" class="btns-right" onclick="radd1()">+1</button>
+                <button id="raddbtn2" class="btns-right" onclick="radd2()">+2</button>
+                <button id="raddbtn3" class="btns-right" onclick="radd3()">+3</button>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        <script src="counter.js"></script>
+    </body>
+</html>

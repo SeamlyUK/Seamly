@@ -111,3 +111,12 @@ a {
 .noline {
     text-decoration: none;
 }
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}

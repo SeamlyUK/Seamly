@@ -1,0 +1,58 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 300px;
+    height: 500px;
+    border: 2px solid rgb(0, 8, 158);
+    margin: 20px auto;
+    border-radius: 4px;
+    background-color: rgb(241, 248, 245);
+}
+
+.screen {
+    display: flex;
+    border: 2px solid rgb(240, 240, 246);
+    height: 100px;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+    
+}
+
+.generateButton {
+    width: 60%;
+    border-radius: 5px;
+    background-color: rgb(169, 3, 3);
+    color: white;
+    border: none;
+    cursor: pointer
+}
+
+h1, h4 {
+    text-align: center;
+    color: rgb(1, 1, 42);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    display: flex;
+    caret-color: red;
+    
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+}

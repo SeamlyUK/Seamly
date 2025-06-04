@@ -3,7 +3,7 @@ let screenNum = document.getElementById("screen")
 
 
 function generate() {
-
+document.getElementById("screen").style.color = "black"
     // get numbers from input 
 let fromNum = Number(document.getElementById("from").value)
 let toNum = Number(document.getElementById("to").value)
@@ -27,6 +27,5 @@ document.getElementById("screen").style.color = "red"
 } else if (fromNum === toNum) {
 screenNum.textContent = "Your range numbers are the same"
 document.getElementById("screen").style.color = "red"    
-
-}
+} 
 }

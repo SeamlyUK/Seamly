@@ -89,25 +89,29 @@ a {
 
 .p-container {
     display: flex;
-    height: 300px;
-    width: 500px;
-    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 600px; 
     justify-content: space-evenly;
     color: rgb(226, 23, 23);
+ 
+
 }
 
 .p1 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 250px;
     height: 250px;
-    border: 3px solid rgb(233, 161, 161);
+    border: 1px solid rgb(161, 113, 113);
     border-radius: 4px;
     margin-top: 20px;
     background-color: blanchedalmond;
     color: rgb(226, 23, 23);
+    padding: 1rem;   
 }
 
 .noline {
@@ -119,5 +123,17 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     
+}
+
+.projectimg {
+    height: 50%;
+    margin-bottom: 10px;
+    
+}
+
+.subtitle {
+    font-size: 16px;
+    color: black;
 }

@@ -77,14 +77,10 @@ ul {
 
 #world {
     width: 20px;
-
-
-
 }
 
 a {
     color:inherit;
-    
 }
 
 .p-container {
@@ -94,7 +90,7 @@ a {
     width: 600px; 
     justify-content: space-evenly;
     color: rgb(226, 23, 23);
- 
+    margin-top: 20px;
 
 }
 
@@ -108,10 +104,11 @@ a {
     height: 250px;
     border: 1px solid rgb(161, 113, 113);
     border-radius: 4px;
-    margin-top: 20px;
     background-color: blanchedalmond;
     color: rgb(226, 23, 23);
-    padding: 1rem;   
+    padding: 1rem; 
+    margin-top: 0;
+     
 }
 
 .noline {
@@ -136,4 +133,10 @@ a {
 .subtitle {
     font-size: 16px;
     color: black;
+}
+
+h5 {
+    background-color: rgb(255, 255, 255);
+    padding: 0 3.3px;
+    border-radius: 4px;
 }

@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 30px auto;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+#apple {
+    height: 50px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.59);
+    font-size: 0.8rem;
+    
+}
+
+#orange {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(245, 154, 7);
+    font-size: 0.8rem;
+    
+
+}
+
+#basket {
+    height: 50px;
+    width: 200px;
+    background-color: rgba(154, 156, 155, 0.59);
+    font-size: 0.8rem;
+    
+
+}
+
+#orange, #apple, #basket {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    border-radius: 4px;
+    padding-left: 2px;
+    text-align: left;
+    overflow: auto;
+    
+}
+
+.btns {
+    width: 250px;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    font-size: 12px; 
+    background-color: rgb(234, 234, 234);   
+    cursor: pointer;
+    background-color: rgb(98, 169, 44);
+    color: whitesmoke;
+}
+
+.groupcont {
+    max-width: 350px;
+    border: 2px solid rgb(251, 222, 222);
+    background: linear-gradient(rgb(254, 255, 231));
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+button {
+    height: 1.5rem;
+
+}

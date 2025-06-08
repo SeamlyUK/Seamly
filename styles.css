@@ -91,6 +91,8 @@ a {
     justify-content: space-evenly;
     color: rgb(226, 23, 23);
     margin-top: 20px;
+    border: 2px solid red;
+    
 
 }
 
@@ -106,8 +108,9 @@ a {
     border-radius: 4px;
     background-color: blanchedalmond;
     color: rgb(226, 23, 23);
-    padding: 1rem; 
-    margin-top: 0;
+    padding: 1rem;
+    margin-bottom: 10px; 
+
      
 }
 

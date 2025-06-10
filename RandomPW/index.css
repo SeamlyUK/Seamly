@@ -9,6 +9,7 @@ body {
     height: 450px;
     background-color: #1F2937;
     margin: 20px auto;
+    border-radius: 5px;
 }
 
 .p-cont {

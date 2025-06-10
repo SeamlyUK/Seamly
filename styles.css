@@ -92,6 +92,8 @@ a {
     color: rgb(226, 23, 23);
     margin-top: 20px;
 
+    
+
 }
 
 .p1 {
@@ -106,8 +108,9 @@ a {
     border-radius: 4px;
     background-color: blanchedalmond;
     color: rgb(226, 23, 23);
-    padding: 1rem; 
-    margin-top: 0;
+    padding: 1rem;
+    margin-bottom: 10px; 
+
      
 }
 
